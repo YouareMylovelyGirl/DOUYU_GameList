@@ -12,8 +12,6 @@
 		A4988C621E210BCD00020D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4988C601E210BCD00020D89 /* Main.storyboard */; };
 		A4988C641E210BCD00020D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4988C631E210BCD00020D89 /* Assets.xcassets */; };
 		A4988C671E210BCD00020D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4988C651E210BCD00020D89 /* LaunchScreen.storyboard */; };
-		A4988C771E210CDC00020D89 /* GameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C761E210CDC00020D89 /* GameListViewController.m */; };
-		A4988CA41E210D2600020D89 /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C7C1E210D2600020D89 /* FLAnimatedImageView+WebCache.m */; };
 		A4988CA51E210D2600020D89 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C7E1E210D2600020D89 /* MKAnnotationView+WebCache.m */; };
 		A4988CA61E210D2600020D89 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C801E210D2600020D89 /* NSData+ImageContentType.m */; };
 		A4988CA71E210D2600020D89 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C821E210D2600020D89 /* NSImage+WebCache.m */; };
@@ -64,6 +62,12 @@
 		A4988D1E1E210E1900020D89 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D081E210E1900020D89 /* UIScrollView+MJExtension.m */; };
 		A4988D1F1E210E1900020D89 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D0A1E210E1900020D89 /* UIScrollView+MJRefresh.m */; };
 		A4988D201E210E1900020D89 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D0C1E210E1900020D89 /* UIView+MJExtension.m */; };
+		A4988D231E21109200020D89 /* NSObject+parse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D221E21109200020D89 /* NSObject+parse.m */; };
+		A4988D261E21152000020D89 /* gameListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D251E21152000020D89 /* gameListItem.m */; };
+		A4988D291E21167B00020D89 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D281E21167B00020D89 /* BaseNetManager.m */; };
+		A4988D2C1E2118CF00020D89 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D2B1E2118CF00020D89 /* NetManager.m */; };
+		A4988D2F1E211AA800020D89 /* GameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D2E1E211AA800020D89 /* GameListViewController.m */; };
+		A4988D321E211B7400020D89 /* gameListFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988D311E211B7400020D89 /* gameListFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,11 +79,7 @@
 		A4988C631E210BCD00020D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		A4988C661E210BCD00020D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4988C681E210BCD00020D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4988C751E210CDC00020D89 /* GameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameListViewController.h; sourceTree = "<group>"; };
-		A4988C761E210CDC00020D89 /* GameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameListViewController.m; sourceTree = "<group>"; };
 		A4988C781E210D0B00020D89 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A4988C7B1E210D2600020D89 /* FLAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
-		A4988C7C1E210D2600020D89 /* FLAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
 		A4988C7D1E210D2600020D89 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		A4988C7E1E210D2600020D89 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		A4988C7F1E210D2600020D89 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -185,6 +185,18 @@
 		A4988D0A1E210E1900020D89 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		A4988D0B1E210E1900020D89 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		A4988D0C1E210E1900020D89 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		A4988D211E21109200020D89 /* NSObject+parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+parse.h"; sourceTree = "<group>"; };
+		A4988D221E21109200020D89 /* NSObject+parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+parse.m"; sourceTree = "<group>"; };
+		A4988D241E21152000020D89 /* gameListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameListItem.h; sourceTree = "<group>"; };
+		A4988D251E21152000020D89 /* gameListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameListItem.m; sourceTree = "<group>"; };
+		A4988D271E21167B00020D89 /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
+		A4988D281E21167B00020D89 /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
+		A4988D2A1E2118CF00020D89 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		A4988D2B1E2118CF00020D89 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		A4988D2D1E211AA800020D89 /* GameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameListViewController.h; sourceTree = "<group>"; };
+		A4988D2E1E211AA800020D89 /* GameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameListViewController.m; sourceTree = "<group>"; };
+		A4988D301E211B7400020D89 /* gameListFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameListFlowLayout.h; sourceTree = "<group>"; };
+		A4988D311E211B7400020D89 /* gameListFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameListFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +256,8 @@
 		A4988C6E1E210C6400020D89 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A4988D211E21109200020D89 /* NSObject+parse.h */,
+				A4988D221E21109200020D89 /* NSObject+parse.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -251,6 +265,8 @@
 		A4988C6F1E210C6400020D89 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4988D241E21152000020D89 /* gameListItem.h */,
+				A4988D251E21152000020D89 /* gameListItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,6 +274,10 @@
 		A4988C701E210C6400020D89 /* NetManager */ = {
 			isa = PBXGroup;
 			children = (
+				A4988D271E21167B00020D89 /* BaseNetManager.h */,
+				A4988D281E21167B00020D89 /* BaseNetManager.m */,
+				A4988D2A1E2118CF00020D89 /* NetManager.h */,
+				A4988D2B1E2118CF00020D89 /* NetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -285,6 +305,8 @@
 		A4988C731E210C6400020D89 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4988D301E211B7400020D89 /* gameListFlowLayout.h */,
+				A4988D311E211B7400020D89 /* gameListFlowLayout.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,8 +314,8 @@
 		A4988C741E210C6400020D89 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A4988C751E210CDC00020D89 /* GameListViewController.h */,
-				A4988C761E210CDC00020D89 /* GameListViewController.m */,
+				A4988D2D1E211AA800020D89 /* GameListViewController.h */,
+				A4988D2E1E211AA800020D89 /* GameListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -301,7 +323,6 @@
 		A4988C791E210D2600020D89 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				A4988C7A1E210D2600020D89 /* FLAnimatedImage */,
 				A4988C7D1E210D2600020D89 /* MKAnnotationView+WebCache.h */,
 				A4988C7E1E210D2600020D89 /* MKAnnotationView+WebCache.m */,
 				A4988C7F1E210D2600020D89 /* NSData+ImageContentType.h */,
@@ -343,15 +364,6 @@
 				A4988CA31E210D2600020D89 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		A4988C7A1E210D2600020D89 /* FLAnimatedImage */ = {
-			isa = PBXGroup;
-			children = (
-				A4988C7B1E210D2600020D89 /* FLAnimatedImageView+WebCache.h */,
-				A4988C7C1E210D2600020D89 /* FLAnimatedImageView+WebCache.m */,
-			);
-			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
 		A4988CB81E210D4300020D89 /* Masonry */ = {
@@ -565,24 +577,27 @@
 				A4988C5C1E210BCD00020D89 /* AppDelegate.m in Sources */,
 				A4988CDD1E210D4300020D89 /* ViewController+MASAdditions.m in Sources */,
 				A4988D151E210E1900020D89 /* MJRefreshBackGifFooter.m in Sources */,
+				A4988D2F1E211AA800020D89 /* GameListViewController.m in Sources */,
 				A4988D1C1E210E1900020D89 /* MJRefreshConst.m in Sources */,
 				A4988CAE1E210D2600020D89 /* SDWebImageManager.m in Sources */,
 				A4988CA91E210D2600020D89 /* SDImageCacheConfig.m in Sources */,
 				A4988CD41E210D4300020D89 /* MASCompositeConstraint.m in Sources */,
 				A4988CAD1E210D2600020D89 /* SDWebImageDownloaderOperation.m in Sources */,
 				A4988D171E210E1900020D89 /* MJRefreshBackStateFooter.m in Sources */,
+				A4988D2C1E2118CF00020D89 /* NetManager.m in Sources */,
 				A4988D1A1E210E1900020D89 /* MJRefreshStateHeader.m in Sources */,
 				A4988CA71E210D2600020D89 /* NSImage+WebCache.m in Sources */,
+				A4988D231E21109200020D89 /* NSObject+parse.m in Sources */,
 				A4988CB01E210D2600020D89 /* UIButton+WebCache.m in Sources */,
 				A4988CB71E210D2600020D89 /* UIView+WebCacheOperation.m in Sources */,
 				A4988CD51E210D4300020D89 /* MASConstraint.m in Sources */,
-				A4988CA41E210D2600020D89 /* FLAnimatedImageView+WebCache.m in Sources */,
 				A4988D111E210E1900020D89 /* MJRefreshHeader.m in Sources */,
 				A4988CAF1E210D2600020D89 /* SDWebImagePrefetcher.m in Sources */,
 				A4988D0D1E210E1900020D89 /* MJRefreshAutoFooter.m in Sources */,
 				A4988D101E210E1900020D89 /* MJRefreshFooter.m in Sources */,
 				A4988CAC1E210D2600020D89 /* SDWebImageDownloader.m in Sources */,
 				A4988D131E210E1900020D89 /* MJRefreshAutoNormalFooter.m in Sources */,
+				A4988D291E21167B00020D89 /* BaseNetManager.m in Sources */,
 				A4988C591E210BCD00020D89 /* main.m in Sources */,
 				A4988CB31E210D2600020D89 /* UIImage+WebP.m in Sources */,
 				A4988CB51E210D2600020D89 /* UIImageView+WebCache.m in Sources */,
@@ -590,15 +605,16 @@
 				A4988D161E210E1900020D89 /* MJRefreshBackNormalFooter.m in Sources */,
 				A4988CDC1E210D4300020D89 /* View+MASAdditions.m in Sources */,
 				A4988D191E210E1900020D89 /* MJRefreshNormalHeader.m in Sources */,
+				A4988D261E21152000020D89 /* gameListItem.m in Sources */,
 				A4988D201E210E1900020D89 /* UIView+MJExtension.m in Sources */,
 				A4988CAB1E210D2600020D89 /* SDWebImageDecoder.m in Sources */,
 				A4988CA51E210D2600020D89 /* MKAnnotationView+WebCache.m in Sources */,
 				A4988CA61E210D2600020D89 /* NSData+ImageContentType.m in Sources */,
+				A4988D321E211B7400020D89 /* gameListFlowLayout.m in Sources */,
 				A4988D181E210E1900020D89 /* MJRefreshGifHeader.m in Sources */,
 				A4988CAA1E210D2600020D89 /* SDWebImageCompat.m in Sources */,
 				A4988CDB1E210D4300020D89 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A4988D0E1E210E1900020D89 /* MJRefreshBackFooter.m in Sources */,
-				A4988C771E210CDC00020D89 /* GameListViewController.m in Sources */,
 				A4988CD61E210D4300020D89 /* MASConstraintMaker.m in Sources */,
 				A4988D1F1E210E1900020D89 /* UIScrollView+MJRefresh.m in Sources */,
 				A4988CA81E210D2600020D89 /* SDImageCache.m in Sources */,
