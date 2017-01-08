@@ -8,7 +8,11 @@
 
 #import "BaseNetManager.h"
 #import "gameListItem.h"
+#import "RoomItem.h"
 
 @interface NetManager : BaseNetManager
-+ (id)getGameListItemCompletionHandler:(void(^)(gameListDataItem *gameLists, NSError *error))completionHandler;
++ (id)getGameListItemCompletionHandler:(void(^)(gameListItem *gameLists, NSError *error))completionHandler;
+
+
++ (id)getRoomItemWithCate_id:(NSString *)cate_id offset:(NSInteger)offset CompletionHandler:(void(^)(RoomItem *roomItem, NSError *error))completionHandler;
 @end

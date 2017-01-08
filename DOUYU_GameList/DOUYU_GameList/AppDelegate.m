@@ -18,6 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     gameListFlowLayout *layout = [[gameListFlowLayout alloc]init];

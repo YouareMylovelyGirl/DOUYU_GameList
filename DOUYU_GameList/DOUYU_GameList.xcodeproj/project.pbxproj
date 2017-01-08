@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A404593D1E225F550079FC5A /* GameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A404593A1E225F550079FC5A /* GameCell.m */; };
+		A404593E1E225F550079FC5A /* RoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A404593C1E225F550079FC5A /* RoomCell.m */; };
+		A40459411E2260AA0079FC5A /* RoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40459401E2260AA0079FC5A /* RoomListViewController.m */; };
+		A40459441E22633B0079FC5A /* RoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40459431E22633B0079FC5A /* RoomItem.m */; };
 		A4988C591E210BCD00020D89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C581E210BCD00020D89 /* main.m */; };
 		A4988C5C1E210BCD00020D89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4988C5B1E210BCD00020D89 /* AppDelegate.m */; };
 		A4988C621E210BCD00020D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4988C601E210BCD00020D89 /* Main.storyboard */; };
@@ -71,6 +75,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40459391E225F550079FC5A /* GameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCell.h; sourceTree = "<group>"; };
+		A404593A1E225F550079FC5A /* GameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCell.m; sourceTree = "<group>"; };
+		A404593B1E225F550079FC5A /* RoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCell.h; sourceTree = "<group>"; };
+		A404593C1E225F550079FC5A /* RoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCell.m; sourceTree = "<group>"; };
+		A404593F1E2260AA0079FC5A /* RoomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomListViewController.h; sourceTree = "<group>"; };
+		A40459401E2260AA0079FC5A /* RoomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomListViewController.m; sourceTree = "<group>"; };
+		A40459421E22633B0079FC5A /* RoomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomItem.h; sourceTree = "<group>"; };
+		A40459431E22633B0079FC5A /* RoomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomItem.m; sourceTree = "<group>"; };
 		A4988C541E210BCD00020D89 /* DOUYU_GameList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOUYU_GameList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4988C581E210BCD00020D89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4988C5A1E210BCD00020D89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -267,6 +279,8 @@
 			children = (
 				A4988D241E21152000020D89 /* gameListItem.h */,
 				A4988D251E21152000020D89 /* gameListItem.m */,
+				A40459421E22633B0079FC5A /* RoomItem.h */,
+				A40459431E22633B0079FC5A /* RoomItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,6 +319,10 @@
 		A4988C731E210C6400020D89 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A40459391E225F550079FC5A /* GameCell.h */,
+				A404593A1E225F550079FC5A /* GameCell.m */,
+				A404593B1E225F550079FC5A /* RoomCell.h */,
+				A404593C1E225F550079FC5A /* RoomCell.m */,
 				A4988D301E211B7400020D89 /* gameListFlowLayout.h */,
 				A4988D311E211B7400020D89 /* gameListFlowLayout.m */,
 			);
@@ -316,6 +334,8 @@
 			children = (
 				A4988D2D1E211AA800020D89 /* GameListViewController.h */,
 				A4988D2E1E211AA800020D89 /* GameListViewController.m */,
+				A404593F1E2260AA0079FC5A /* RoomListViewController.h */,
+				A40459401E2260AA0079FC5A /* RoomListViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -596,6 +616,7 @@
 				A4988D0D1E210E1900020D89 /* MJRefreshAutoFooter.m in Sources */,
 				A4988D101E210E1900020D89 /* MJRefreshFooter.m in Sources */,
 				A4988CAC1E210D2600020D89 /* SDWebImageDownloader.m in Sources */,
+				A40459441E22633B0079FC5A /* RoomItem.m in Sources */,
 				A4988D131E210E1900020D89 /* MJRefreshAutoNormalFooter.m in Sources */,
 				A4988D291E21167B00020D89 /* BaseNetManager.m in Sources */,
 				A4988C591E210BCD00020D89 /* main.m in Sources */,
@@ -609,6 +630,7 @@
 				A4988D201E210E1900020D89 /* UIView+MJExtension.m in Sources */,
 				A4988CAB1E210D2600020D89 /* SDWebImageDecoder.m in Sources */,
 				A4988CA51E210D2600020D89 /* MKAnnotationView+WebCache.m in Sources */,
+				A404593E1E225F550079FC5A /* RoomCell.m in Sources */,
 				A4988CA61E210D2600020D89 /* NSData+ImageContentType.m in Sources */,
 				A4988D321E211B7400020D89 /* gameListFlowLayout.m in Sources */,
 				A4988D181E210E1900020D89 /* MJRefreshGifHeader.m in Sources */,
@@ -617,10 +639,12 @@
 				A4988D0E1E210E1900020D89 /* MJRefreshBackFooter.m in Sources */,
 				A4988CD61E210D4300020D89 /* MASConstraintMaker.m in Sources */,
 				A4988D1F1E210E1900020D89 /* UIScrollView+MJRefresh.m in Sources */,
+				A40459411E2260AA0079FC5A /* RoomListViewController.m in Sources */,
 				A4988CA81E210D2600020D89 /* SDImageCache.m in Sources */,
 				A4988D0F1E210E1900020D89 /* MJRefreshComponent.m in Sources */,
 				A4988D141E210E1900020D89 /* MJRefreshAutoStateFooter.m in Sources */,
 				A4988CB21E210D2600020D89 /* UIImage+MultiFormat.m in Sources */,
+				A404593D1E225F550079FC5A /* GameCell.m in Sources */,
 				A4988CB41E210D2600020D89 /* UIImageView+HighlightedWebCache.m in Sources */,
 				A4988CB11E210D2600020D89 /* UIImage+GIF.m in Sources */,
 			);
